@@ -1,0 +1,130 @@
+	/* ***** MAJOR FORMATTING ***** */
+	/* Style for the entire page! */
+	body {
+		background-image: url('sheeps.png');
+		background-color: #e5b2ff;
+		font-size: 20px;
+		font-family: 'mali', sans-serif;
+		color: #7f2294;
+	}
+	
+	/* Style for main page content! */
+	#main {
+		margin: auto auto auto 300px;
+		padding: 10px 0px 10px 0px;
+		width: 750px;
+		background: #ffffff90;
+		border: 2px solid;
+		border-color: #7f2294;
+		text-align: center;
+	}
+	
+	
+	/* Style for navigation sidebar! */
+	#navigation {
+		position: fixed;
+		z-index: 1;
+		width: 240px;
+		margin: 20px 0px 0px 20px;
+		padding: 30px 0px 0px 0px;
+		background: #ffffff90;
+		border: 2px solid;
+		border-color: #7f2294;
+		text-align: center;
+	}
+	
+	/* Back to Top Button! */
+	#b2t {
+		position: fixed;
+		z-index: 2;
+		margin: 460px 0px 0px 80px;
+		padding: 5px 5px 5px 5px;
+		background: #ffffff90;
+		border: 2px solid;
+		border-color: #7f2294;
+	}
+	
+	/* Table formatting! */
+	table, th, td, hr {
+		margin: 10px auto 10px auto;
+		padding: 2px 10px 2px 10px;
+		border: 2px solid;
+		border-color: #7f2294;
+		border-collapse: collapse;
+		text-align: center;
+		font-size: 16px;
+	}
+	
+	/* Form formatting! */
+	input, textarea {
+		margin: auto 30px auto 30px;
+		padding: 5px 5px;
+		background: #e5b2ff80;
+		border: 2px solid;
+		border-color: #7f2294;
+		text-align: left;
+		font-size: 16px;
+		font-family: "Courier New";
+		color: #7f2294;
+	}
+		
+	/* ***** MINOR IMPROVEMENTS ***** */
+	/* Make links conform to style of website! */
+	a {
+		text-decoration: none;
+		color: #bb4dd4;
+	}
+	#navigation a, #b2t a {
+		display: block;
+	}
+	a:hover{
+		color: #7f2294;
+		background: #ffffffd0;
+	}
+	/* Remove extra margins from headings! */
+	h1, h2, h3, h4, dt {
+		display: block;
+		text-align: center;
+		margin: 5px 0px 5px 0px;
+	}
+	/* Images are centered! */
+	img, dd img {
+		display: block;
+		margin: 0px auto 5px auto;
+	}
+	/* Cute borders for non-decorative images! */
+	.image img, dd img {
+		border: 2px solid;
+		border-color: #7f2294;
+	}
+	/* Divider images are padded! */
+	.divider img {
+		padding: 15px 0px 15px 0px;
+	}
+	/* Adjust form formatting once selected! */
+	input:focus, textarea:focus {
+		background: #e5b2ffe0;
+		color: #7f2294;
+	}
+	/* Align paragraphs to be left-justified! */
+	p {
+		margin: 5px 30px 10px 30px;
+		text-align: left;
+	}
+	/* Make list items slightly smaller and left-justified! */
+	ol, ul {
+		margin: 5px 40px 10px 40px;
+		font-size: 16px;
+		text-align: left;
+	}
+	/* Make definition data slightly smaller and left-justified! */
+	dd {
+		margin: 5px auto 15px auto;
+		border-color: #7f2294;
+		font-size: 16px;
+	}
+	/* Make labels appear above inputs! */
+	label {
+		display: block;
+	}
+	
